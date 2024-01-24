@@ -7,13 +7,19 @@ import { Skill } from "../skill/skill"
 export function Experience(){
     return(
         <div className="experience">
-          <SectionTitle text="Experience"/>
-          <p>3 years working as a Software Developer, in companys such as Itaú, Stone and Aftersale.</p>
+          <SectionTitle text="Sobre mim"/>
+          <p>Desenvolvedor Back-End á 6 meses, atualmente trabalhando em JB Software, empresa que atua a mais de 30 anos no mercado 
+            desenvolvendo soluções para contadores.
+          </p>
+          <SectionTitle text="Experiencias"/>
+          <h3>JB Software</h3>
+          <p>Estágio de seis meses em JB Software.</p>
+          <h3>Zagonal ltda</h3>
+          <p>Nove meses atuando como help desk na insfraestrutura em Zagonel ltda.</p>
           <div className="experience-time">
-            <Skill image="/react.png" measure={2} years="2 years"/>
-            <Skill image="/ts.png" measure={3} years="3 years"/>
-            <Skill image="/js.png" measure={3} years="3 years"/>
-            <Skill image="/java.png" measure={1} years="1 year"/>
+            <Skill image="/spring.png" measure={3} years="1 ano"/>
+            <Skill image="/js.png" measure={3} years="1 ano"/>
+            <Skill image="/java.png" measure={3} years="1 ano"/>
           </div>
         </div>
     )
